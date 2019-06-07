@@ -1,0 +1,6 @@
+D:\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.csproj.CoreCompileInputs.cache
+D:\ProyectoDSD\WCFMedical\WCFServices\bin\WCFServices.dll.config
+D:\ProyectoDSD\WCFMedical\WCFServices\bin\WCFServices.dll
+D:\ProyectoDSD\WCFMedical\WCFServices\bin\WCFServices.pdb
+D:\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.dll
+D:\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.pdb
