@@ -14,7 +14,7 @@ namespace WCFServices.Persistencia
         public Medico Crear(Medico medicoACrear)
         {
             Medico medicoCreado = null;
-            string sql = "INSERT INTO t_medico VALUES (@dni, @nombre, @apellidopaterno, @apellidomaterno, @sexo, @edad, @especialidad, @correo)";
+            string sql = "INSERT INTO t_medico VALUES (@dni, @nombre, @apellidopaterno, @apellidomaterno, @sexo, @fechanacimiento, @especialidad, @correo)";
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {
                 conexion.Open();
@@ -25,7 +25,7 @@ namespace WCFServices.Persistencia
                     comando.Parameters.Add(new SqlParameter("@apellidopaterno", medicoACrear.ApellidoPaterno));
                     comando.Parameters.Add(new SqlParameter("@apellidomaterno", medicoACrear.ApellidoMaterno));
                     comando.Parameters.Add(new SqlParameter("@sexo", medicoACrear.Sexo));
-                    comando.Parameters.Add(new SqlParameter("@edad", medicoACrear.Edad));
+                    comando.Parameters.Add(new SqlParameter("@fechanacimiento", medicoACrear.FechaNacimiento));
                     comando.Parameters.Add(new SqlParameter("@especialidad", medicoACrear.Especialidad));
                     comando.Parameters.Add(new SqlParameter("@correo", medicoACrear.Correo));
                     comando.ExecuteNonQuery();
@@ -55,7 +55,7 @@ namespace WCFServices.Persistencia
                                 ApellidoPaterno = (string)resultado["tx_apellidopaterno"],
                                 ApellidoMaterno = (string)resultado["tx_apellidomaterno"],
                                 Sexo = (string)resultado["tx_Sexo"],
-                                Edad = (int)resultado["nu_edad"],
+                                FechaNacimiento = (DateTime)resultado["fe_nacimiento"],
                                 Especialidad = (string)resultado["tx_especialidad"],
                                 Correo = (string)resultado["tx_correo"]
                             };
@@ -63,7 +63,7 @@ namespace WCFServices.Persistencia
                     }
                 }
             }
-            return medicoEncontrado; //HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            return medicoEncontrado;
         }
         public List<Medico> Listar()
         {
@@ -86,7 +86,7 @@ namespace WCFServices.Persistencia
                                 ApellidoPaterno = (string)resultado["tx_apellidopaterno"],
                                 ApellidoMaterno = (string)resultado["tx_apellidomaterno"],
                                 Sexo = (string)resultado["tx_Sexo"],
-                                Edad = (int)resultado["nu_edad"],
+                                FechaNacimiento = (DateTime)resultado["fe_nacimiento"],
                                 Especialidad = (string)resultado["tx_especialidad"],
                                 Correo = (string)resultado["tx_correo"]
                             };

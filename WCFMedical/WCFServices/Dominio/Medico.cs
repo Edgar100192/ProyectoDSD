@@ -20,7 +20,7 @@ namespace WCFServices.Dominio
         [DataMember]
         public string Sexo { get; set; }
         [DataMember]
-        public int Edad { get; set; }
+        public DateTime FechaNacimiento { get; set; }
         [DataMember]
         public string Especialidad { get; set; }
         [DataMember]
