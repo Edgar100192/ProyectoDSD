@@ -7,6 +7,12 @@ using System.Text;
 using WCFServices.Dominio;
 using WCFServices.Errores;
 using WCFServices.Persistencia;
+using System.Data.SqlClient;
+using System.ServiceModel.Web;
+using System.Web;
+using System.ComponentModel;
+using System.Drawing;
+using System.Threading.Tasks;
 
 namespace WCFServices
 {

@@ -4,8 +4,15 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Data.SqlClient;
 using WCFServices.Dominio;
 using WCFServices.Errores;
+using System.ServiceModel.Web;
+using System.Data;
+using System.Web;
+using System.ComponentModel;
+using System.Drawing;
+using System.Threading.Tasks;
 
 namespace WCFServices
 {
@@ -15,7 +22,7 @@ namespace WCFServices
     {
         [FaultContract(typeof(RepetidoException))]
         [OperationContract]
-        Medico CrearMedico(Medico medicoACrear);
+        Medico CrearMedico(Medico medicoAcrear);
 
         [OperationContract]
         Medico ObtenerMedico(int dni);

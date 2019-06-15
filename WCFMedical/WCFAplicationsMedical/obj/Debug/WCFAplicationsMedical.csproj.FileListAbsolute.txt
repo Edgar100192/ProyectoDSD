@@ -1,0 +1,10 @@
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\bin\Debug\WCFAplicationsMedical.exe
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\bin\Debug\WCFAplicationsMedical.pdb
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.CrearMedico.resources
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.Properties.Resources.resources
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.csproj.GenerateResource.cache
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.csproj.CoreCompileInputs.cache
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.exe
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.pdb
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.csprojAssemblyReference.cache
+D:\ProyectoDSD\WCFMedical\WCFAplicationsMedical\bin\Debug\WCFAplicationsMedical.exe.config

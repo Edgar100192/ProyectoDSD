@@ -4,6 +4,15 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using WCFServices.Dominio;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
+using WCFServices.Errores;
+using WCFServices.Persistencia;
+using System.ServiceModel.Web;
+using System.ComponentModel;
+using System.Drawing;
+using System.Threading.Tasks;
 
 namespace WCFServices.Persistencia
 {
@@ -55,7 +64,7 @@ namespace WCFServices.Persistencia
                                 ApellidoPaterno = (string)resultado["tx_apellidopaterno"],
                                 ApellidoMaterno = (string)resultado["tx_apellidomaterno"],
                                 Sexo = (string)resultado["tx_Sexo"],
-                                FechaNacimiento = (DateTime)resultado["fe_nacimiento"],
+                                FechaNacimiento = (string)resultado["fe_nacimiento"],
                                 Especialidad = (string)resultado["tx_especialidad"],
                                 Correo = (string)resultado["tx_correo"]
                             };
@@ -86,7 +95,7 @@ namespace WCFServices.Persistencia
                                 ApellidoPaterno = (string)resultado["tx_apellidopaterno"],
                                 ApellidoMaterno = (string)resultado["tx_apellidomaterno"],
                                 Sexo = (string)resultado["tx_Sexo"],
-                                FechaNacimiento = (DateTime)resultado["fe_nacimiento"],
+                                FechaNacimiento = (string)resultado["fe_nacimiento"],
                                 Especialidad = (string)resultado["tx_especialidad"],
                                 Correo = (string)resultado["tx_correo"]
                             };

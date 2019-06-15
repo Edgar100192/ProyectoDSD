@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="56da4f6f-65ba-43f6-9a9c-f29c4dacfb85" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50386/Medicos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Medicos.xsd" MetadataType="Schema" ID="b83f7075-6f9d-4970-98be-aa76028f11bd" SourceId="1" SourceUrl="http://localhost:50386/Medicos.svc?xsd=xsd3" />
+    <MetadataFile FileName="Medicos1.xsd" MetadataType="Schema" ID="0d0ec252-e88e-472d-aa58-8ebf77269976" SourceId="1" SourceUrl="http://localhost:50386/Medicos.svc?xsd=xsd1" />
+    <MetadataFile FileName="Medicos2.xsd" MetadataType="Schema" ID="42a4fa3f-c2d9-4f88-929c-e2d16cb290d1" SourceId="1" SourceUrl="http://localhost:50386/Medicos.svc?xsd=xsd0" />
+    <MetadataFile FileName="Medicos.disco" MetadataType="Disco" ID="ca1cc917-0538-4db6-b24e-a00f3469e081" SourceId="1" SourceUrl="http://localhost:50386/Medicos.svc?disco" />
+    <MetadataFile FileName="Medicos.wsdl" MetadataType="Wsdl" ID="dbb3567c-8933-4c2c-83c8-39c2f37e1b47" SourceId="1" SourceUrl="http://localhost:50386/Medicos.svc?wsdl" />
+    <MetadataFile FileName="Medicos3.xsd" MetadataType="Schema" ID="609b36f3-d328-4a51-a71a-dea1072f9f58" SourceId="1" SourceUrl="http://localhost:50386/Medicos.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
