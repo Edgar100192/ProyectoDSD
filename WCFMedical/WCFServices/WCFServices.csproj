@@ -61,19 +61,26 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Atenciones.svc" />
     <Content Include="Medicos.svc" />
     <Content Include="Solicitudes.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Atenciones.svc.cs">
+      <DependentUpon>Atenciones.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Dominio\Atencion.cs" />
     <Compile Include="Dominio\Medico.cs" />
     <Compile Include="Dominio\Solicitud.cs" />
     <Compile Include="Errores\RepetidoException.cs" />
+    <Compile Include="IAtenciones.cs" />
     <Compile Include="IMedicos.cs" />
     <Compile Include="ISolicitudes.cs" />
     <Compile Include="Medicos.svc.cs">
       <DependentUpon>Medicos.svc</DependentUpon>
     </Compile>
+    <Compile Include="Persistencia\AtencionDAO.cs" />
     <Compile Include="Persistencia\MedicoDAO.cs" />
     <Compile Include="Persistencia\SolicitudDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
