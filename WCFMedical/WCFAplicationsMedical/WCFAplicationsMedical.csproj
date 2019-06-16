@@ -78,6 +78,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\WCFServiceSolicitud\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="CrearCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +94,12 @@
     </Compile>
     <Compile Include="CrearMedico.Designer.cs">
       <DependentUpon>CrearMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearSolicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearSolicitud.Designer.cs">
+      <DependentUpon>CrearSolicitud.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -103,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CrearMedico.resx">
       <DependentUpon>CrearMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearSolicitud.resx">
+      <DependentUpon>CrearSolicitud.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -167,6 +181,22 @@
     <None Include="Connected Services\WCFServiceReference\WCFAplicationsMedical.WCFServiceReference.Medico.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Connected Services\WCFServiceSolicitud\Solicitudes.wsdl" />
+    <None Include="Connected Services\WCFServiceSolicitud\Solicitudes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WCFServiceSolicitud\Solicitudes1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WCFServiceSolicitud\Solicitudes2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WCFServiceSolicitud\Solicitudes3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WCFServiceSolicitud\WCFAplicationsMedical.WCFServiceSolicitud.Solicitud.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -184,6 +214,7 @@
     <WCFMetadataStorage Include="Connected Services\WCFServiceAtenciones\" />
     <WCFMetadataStorage Include="Connected Services\WCFServiceCliente\" />
     <WCFMetadataStorage Include="Connected Services\WCFServiceReference\" />
+    <WCFMetadataStorage Include="Connected Services\WCFServiceSolicitud\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\WCFServiceReference\Medicos.disco" />
@@ -238,6 +269,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\WCFServiceCliente\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WCFServiceSolicitud\Solicitudes.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WCFServiceSolicitud\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WCFServiceSolicitud\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WCFServiceSolicitud\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
