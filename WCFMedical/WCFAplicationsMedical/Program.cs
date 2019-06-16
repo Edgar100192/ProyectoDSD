@@ -16,7 +16,7 @@ namespace WCFAplicationsMedical
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CrearMedico());
+            Application.Run(new RegistrarAtencion());
         }
     }
 }
