@@ -29,3 +29,15 @@ C:\distribuido\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicat
 C:\distribuido\ProyectoDSD\WCFMedical\WCFAplicationsMedical\bin\Debug\WCFAplicationsMedical.exe.config
 C:\distribuido\ProyectoDSD\WCFMedical\WCFAplicationsMedical\bin\Debug\WCFAplicationsMedical.exe
 C:\distribuido\ProyectoDSD\WCFMedical\WCFAplicationsMedical\bin\Debug\WCFAplicationsMedical.pdb
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\bin\Debug\WCFAplicationsMedical.exe.config
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\bin\Debug\WCFAplicationsMedical.exe
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\bin\Debug\WCFAplicationsMedical.pdb
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.csprojAssemblyReference.cache
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.CrearCliente.resources
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.CrearMedico.resources
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.Properties.Resources.resources
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.RegistrarAtencion.resources
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.csproj.GenerateResource.cache
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.csproj.CoreCompileInputs.cache
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.exe
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFAplicationsMedical\obj\Debug\WCFAplicationsMedical.pdb

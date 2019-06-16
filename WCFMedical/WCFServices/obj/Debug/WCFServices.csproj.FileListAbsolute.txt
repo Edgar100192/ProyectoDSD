@@ -12,3 +12,10 @@ C:\Users\ZOILA\Desktop\ProyectoDist\ProyectoDSD\WCFMedical\WCFServices\obj\Debug
 C:\Users\ZOILA\Desktop\ProyectoDist\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.csproj.CoreCompileInputs.cache
 C:\Users\ZOILA\Desktop\ProyectoDist\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.dll
 C:\Users\ZOILA\Desktop\ProyectoDist\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.pdb
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFServices\bin\WCFServices.dll.config
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFServices\bin\WCFServices.dll
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFServices\bin\WCFServices.pdb
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.csprojAssemblyReference.cache
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.csproj.CoreCompileInputs.cache
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.dll
+C:\Users\ZOILA\Desktop\Proyecto\ProyectoDSD\WCFMedical\WCFServices\obj\Debug\WCFServices.pdb
