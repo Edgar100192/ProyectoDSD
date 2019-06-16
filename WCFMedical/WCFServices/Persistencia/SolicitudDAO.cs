@@ -10,12 +10,12 @@ namespace WCFServices.Persistencia
 {
     public class SolicitudDAO
     {
-        private string CadenaConexion = "Data Source=DESKTOP-ANB7MGC\\MSSQLSERVER1; Initial Catalog=DB_Medical;Integrated Security=SSPI;";
+        private string CadenaConexion = "Data Source=DESKTOP-ANB7MGC\\MSSQLSERVER1; Initial Catalog=BD_Medical;Integrated Security=SSPI;";
 
         public Solicitud Crear(Solicitud SolicitudACrear)
         {
             Solicitud SolicitudCreado = null;
-            string sql = "INSERT INTO T_Solicitud VALUES(@num_soli,@cod_cli,@direccion,@distrito,@fecha,@dniM,@observacion,@estado)";
+            string sql = "INSERT INTO t_solicitud VALUES(@num_soli,@cod_cli,@direccion,@distrito,@fecha,@dniM,@observacion,@estado)";
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {
                 conexion.Open();
@@ -41,7 +41,7 @@ namespace WCFServices.Persistencia
         public Solicitud Obtener(int Nu_Solicitud)
         {
             Solicitud SolicitudEncontrado = null;
-            string sql = "SELECT * FROM T_Solicitud WHERE Nu_Solicitud=@num_soli";
+            string sql = "SELECT * FROM t_solicitud WHERE num_solicitud=@num_soli";
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {
                 conexion.Open();
@@ -70,7 +70,7 @@ namespace WCFServices.Persistencia
         public Solicitud Modificar(Solicitud SolicitudaModificar)
         {
             Solicitud SolicitudModificado = null;
-            string sql = "UPDATE T_Solicitud SET num_solicitud=@num_soli,cod_cliente=@cod_cli,des_direccion=@direccion,des_distrito=@distrito,fec_registro=@fecha,nu_dni_medico=@dniM,des_observacion=@observacion,ind_estado=@estado";
+            string sql = "UPDATE t_solicitud SET num_solicitud=@num_soli,cod_cliente=@cod_cli,des_direccion=@direccion,des_distrito=@distrito,fec_registro=@fecha,nu_dni_medico=@dniM,des_observacion=@observacion,ind_estado=@estado";
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {
                 conexion.Open();
@@ -95,7 +95,7 @@ namespace WCFServices.Persistencia
         }
         public void Eliminar(int Nu_Solicitud)
         {
-            string sql = "DELETE FROM T_Solicitud WHERE Nu_Solicitud=@num_soli";
+            string sql = "DELETE FROM t_solicitud WHERE num_solicitud=@num_soli";
             using (SqlConnection conexion = new SqlConnection(CadenaConexion))
             {
                 conexion.Open();
