@@ -10,7 +10,7 @@ namespace WCFServices.Dominio
     public class Solicitud
     {
         [DataMember]
-        public int Nu_Solicitud { get; set; }//fhf 
+        public int Nu_Solicitud { get; set; }//fhf e
         [DataMember]
         public int co_Cliente { get; set; }
         [DataMember]
