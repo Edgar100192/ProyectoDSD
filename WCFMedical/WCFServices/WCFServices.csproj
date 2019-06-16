@@ -62,17 +62,24 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Medicos.svc" />
+    <Content Include="Solicitudes.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dominio\Medico.cs" />
+    <Compile Include="Dominio\Solicitud.cs" />
     <Compile Include="Errores\RepetidoException.cs" />
     <Compile Include="IMedicos.cs" />
+    <Compile Include="ISolicitudes.cs" />
     <Compile Include="Medicos.svc.cs">
       <DependentUpon>Medicos.svc</DependentUpon>
     </Compile>
     <Compile Include="Persistencia\MedicoDAO.cs" />
+    <Compile Include="Persistencia\SolicitudDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solicitudes.svc.cs">
+      <DependentUpon>Solicitudes.svc</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
